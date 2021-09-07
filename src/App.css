@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
 .App {
-  text-align: center;
   padding: 20px;
+}
+
+.Preview {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    width: 172mm;
+    max-height: 251mm;
+    page-break-after: always;
+    border: 1px solid #CCC;
+    color: #333;
 }

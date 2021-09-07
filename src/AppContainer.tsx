@@ -1,13 +1,12 @@
-import * as React from 'react'
-import { ChakraProvider } from "@chakra-ui/react"
-
+import * as React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
 
 interface Props {
-    children: any
+  children: any;
 }
 
 const AppContainer = function (props: Props) {
-    return <ChakraProvider>{props.children}</ChakraProvider>;
-}
+  return <ChakraProvider>{props.children}</ChakraProvider>;
+};
 
 export default AppContainer;
